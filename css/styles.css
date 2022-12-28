@@ -3,6 +3,10 @@
 #title {
     background-color: #82CD47;
     color: white;
+    
+}
+.title-row {
+    margin-bottom: 20px;
 }
 
 .title-img {
