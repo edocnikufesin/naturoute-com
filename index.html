@@ -1,180 +1,145 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Naturoute</title>
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/46f17c3332.js" crossorigin="anonymous"></script>
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="css/styles.css">
-  <script defer src="./scripts/script.js"></script>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Naturoute</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/46f17c3332.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="./scripts/script.js"></script>
+  </head>
 
-<body>
-
-  <nav>
-    <div class="brand">
-      Naturoute  
-    </div>
-    <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="./pages/nutrition.html">Nutrition</a>
-      <a href="./pages/yoga.html">Yoga</a>
-      <a href="./pages/contact.html">Contact</a>
-    </div>
-  </nav>
- 
-  <main>
-    
-    <!-- Title Block -->
-    <section id="title">
-          <div class="title-text">
-            <h1>Holistic nutrition with Karen Butt.</h1>
-          </div>
-          <img src="images/kbutt2.jpg" class="title-img"
-              alt="karen-headshot"> 
-    </section>
-
-
-    <!-- Services -->
-    <section id="services">
-      <div class="">
-        <h2>Holistic Nutrition & Wellness</h2>
-        <ul>
-          <li>Whole body assessment & systems analysis.</li>
-          <li>Personalized research guided strategies.</li>
-          <li>Quality natural suppliments.</li>
-        </ul>
-        <h2>Nutrigenomics Analysis</h2>
-        <ul>
-          <li>Focus nutrition based on your personal genetic pathway.</li>
-        </ul>
-        <h2>Gentle Somatic Yoga</h2>
-        <ul>
-          <li>Reconnect body & mind to reduce pain and increase freedom of
-            movement.</li>
-        </ul>
+  <body>
+    <!--Nav-->
+    <nav id="navbar">
+      <div class="brand">Naturoute</div>
+      <div class="nav-links">
+        <a href="#" id="current-page">Home</a>
+        <a href="./pages/nutrition.html">Nutrition</a>
+        <a href="./pages/yoga.html">Yoga</a>
+        <a href="./pages/contact.html">Contact</a>
       </div>
-    </section>
+    </nav>
 
-
-
-    <!-- Features -->
-    <section id="features">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="feature-box col-lg-4 col-med-12">
-            <i class=" icon fa-solid fa-heart fa-3x"></i>
-            <h3>Get healthy.</h3>
-            Feel better as your body heals.
-          </div>
-          <div class="feature-box col-lg-4 col-med-12">
-            <i class="icon fa-solid fa-weight-scale fa-3x"></i>
-            <h3>Lose weight.</h3>
-            <p>Have more energy and look better.</p>
-          </div>
-          <div class="feature-box col-lg-4 col-med-12">
-            <i class="icon fa-solid fa-user-shield fa-3x"></i>
-            <h3>Private.</h3>
-            <p>All interactions and collected information is secure and never
-              shared.</p>
-          </div>
+    <main>
+      <!-- Title Block -->
+      <section id="title">
+        <div class="title-text">
+          <h1>Holistic nutrition with Karen Butt.</h1>
         </div>
-      </div>
-    </section>
+        <img src="images/kbutt2.jpg" class="title-img" alt="karen-headshot" />
+      </section>
 
-    <!-- Carousel -->
-    <section id="carousel">
-    
-      <div class="slide">
-        <img src="https://source.unsplash.com/random?landscape,mountain" alt="">  
-      </div>
-      
-      <div class="slide">
-        <img src="https://source.unsplash.com/random?landscape,cars" alt="">  
-      </div>
-
-      <div class="slide">
-        <img src="https://source.unsplash.com/random?landscape,city" alt="">  
-      </div>
-      
-      <div class="slide">
-        <img src="https://source.unsplash.com/random?landscape,night" alt="">  
-      </div>
-
-      <button class="btn btn-next">></button>
-      <button class="btn btn-prev"><</button> 
-        
-    </section>
-
-      <!-- Blog 
-      <section id="blog">
-        <h2>Blog Posts</h2>
-
-        <div id="blog-carousel" class="carousel slide" data-bs-ride="carousel">
-      
-          <div class="carousel-inner">
-
-            <div class="carousel-item active">
-
-              <img src="images/KB_thruTime256.png" style="margin-bottom: 8rem" class="img-fluid blog-image" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>More Than a 10 Year Challenge</h5>
-                <p>How do you feel about aging? Do you feel inspired to live your best life with passion and purpose...</p>
-              </div>
-
-            </div>
-            <div class="carousel-item">
-              <img src="images/Herecomesthesun256.png" class="img-fluid blog-image" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Here Comes the Sun!</h5>
-                <p>Spring is finally here, which means that many of us will be spending more time outside enjoying the fresh air...</p>
-              </div>
-
-            </div>
-            <div class="carousel-item">
-
-              <img src="images/LaughingBenefits256.png" class="img-fluid blog-image" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Who's Laughing Now? The Health Benefits of a Good Laugh</h5>
-                <p>The positive effects of smiling occur whether a smile is real or fake, and we see the same with...</p>
-              </div>
-
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#blog-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#blog-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+      <!-- Services -->
+      <section id="services">
+        <div class="serv-list">
+          <h2>Holistic Nutrition & Wellness</h2>
+          <ul>
+            <li>Whole body assessment & systems analysis.</li>
+            <li>Personalized research guided strategies.</li>
+            <li>Quality natural suppliments.</li>
+          </ul>
+          <h2>Nutrigenomics Analysis</h2>
+          <ul>
+            <li>Focus nutrition based on your personal genetic pathway.</li>
+          </ul>
+          <h2>Gentle Somatic Yoga</h2>
+          <ul>
+            <li>
+              Reconnect body & mind to reduce pain and increase freedom of
+              movement.
+            </li>
+          </ul>
         </div>
-      </section> -->
+      </section>
 
-    <!-- Certifications -->
+      <!-- Features -->
+      <section id="features">
+        <div class="feature-box">
+          <i class="icon fa-solid fa-heart fa-3x"></i>
+          <h3>Get healthy.</h3>
+          Feel better as your body heals.
+        </div>
+        <div class="feature-box">
+          <i class="icon fa-solid fa-weight-scale fa-3x"></i>
+          <h3>Lose weight.</h3>
+          <p>Have more energy and look better.</p>
+        </div>
+        <div class="feature-box">
+          <i class="icon fa-solid fa-user-shield fa-3x"></i>
+          <h3>Private.</h3>
+          <p>
+            All interactions and collected information is secure and never
+            shared.
+          </p>
+        </div>
+      </section>
 
-    <section id="certs">
-      <img class="certs-logo" src="images/CSNN-Certification-Mark-lg.png"
-        alt="CSNN-logo">
-      <img class="certs-logo" src="images/CSNNAA-Badge-PNG.png" alt="CSNNAA-logo">
-      <img class="certs-logo" src="images/NatuRoute-bestofbest-gold-2021.png"
-        alt="bestofbest-logo">
-    </section>
+      <!-- Carousel -->
+      <section id="carousel">
+        <div class="slide">
+          <img
+            src="https://source.unsplash.com/random?landscape,mountain"
+            alt=""
+          />
+        </div>
 
-  </main>
+        <div class="slide">
+          <img src="https://source.unsplash.com/random?landscape,cars" alt="" />
+        </div>
 
-      <!-- Footer -->
-  <footer id="footer">
-    <p>©2023 Royburn</p>
-  </footer>
+        <div class="slide">
+          <img src="https://source.unsplash.com/random?landscape,city" alt="" />
+        </div>
 
-</body>
+        <div class="slide">
+          <img
+            src="https://source.unsplash.com/random?landscape,night"
+            alt=""
+          />
+        </div>
 
+        <button class="btn btn-next">></button>
+        <button class="btn btn-prev"><</button>
+      </section>
+
+      <!-- Certifications -->
+      <section id="certs">
+        <img
+          class="certs-logo"
+          src="images/CSNN-Certification-Mark-lg.png"
+          alt="CSNN-logo"
+        />
+
+        <img
+          class="certs-logo"
+          src="images/NatuRoute-bestofbest-gold-2021.png"
+          alt="bestofbest-logo"
+        />
+        <img
+          class="certs-logo"
+          src="images/CSNNAA-Badge-PNG.png"
+          alt="CSNNAA-logo"
+        />
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p>©2023 Royburn</p>
+    </footer>
+  </body>
 </html>

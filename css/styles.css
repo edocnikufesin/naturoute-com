@@ -1,88 +1,59 @@
-/* Elements */
-
-body {
-    font-family: 'Montserrat';
-}
-
-main {
-  display: grid;
-  place-items: center;
-}
-
-section {
-  width: 100%;
-}
-
-footer {
-    text-align: right;
-    background-color: var(--bgcolor2);
-}
-
-
-/* Nav Bar */
-
-nav {
-  position: sticky;
-  top: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  background-color: var(--bgcolor1);
-  transition: top 500ms ease-in-out;
-  z-index: 1;
-}
-
-nav.scroll-up {
-  top: 0;
-}
-
-nav.scroll-down {
-top: -100%;
-}
-
-nav.scroll-up, nav:focus-within { /* ensure nav is visible when in focus */
-  top: 0;
-}
-
-.nav-links {
-  display:flex;
-  align-items: center;
-}
-
-nav a {
-  padding: 5px;
-}
-
-.brand {
-    /* font-family: 'Ubuntu'; */
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
 /* Title Section */
 
 #title {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #82CD47;
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
 }
 
 .title-text {
   text-align: center;
+  margin: 0 5%;
 }
 
 .title-img {
-    width: 35%;
-    transform: rotate(12deg);
-    padding: 6rem;
+  width: 35%;
+  transform: rotate(12deg);
+  padding: 3%;
+  margin-right: 5%;
+}
+
+/* Services Section */
+
+#services {
+}
+
+.serv-list {
+  padding: 0 20% 5%;
+}
+
+/* Features Section */
+
+#features {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.feature-box {
+  width: 20%;
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #54b435;
+}
+
+.icon:hover {
+  color: #82cd47;
 }
 
 /* Carousel */
 
 #carousel {
+  display: hidden;
   width: 100%;
   max-width: 800px;
   height: 350px;
@@ -98,7 +69,7 @@ nav a {
   transition: all 0.5s;
 }
 
-.slide img {  
+.slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -121,7 +92,7 @@ nav a {
   transform: scale(1.1);
 }
 
-.btn-prev { 
+.btn-prev {
   top: 45%;
   left: 2%;
 }
@@ -131,101 +102,34 @@ nav a {
   right: 2%;
 }
 
-/* Services Section */
-
-#services {
-  padding: auto;
-    background-color: #54B435;
-}
-
 /* Contact Section */
 
 #contact {
-    background-color: #82CD47;
-}
-
-/* Features Section */
-
-#features {
-    background-color: var(--bgcolor1);
-    padding: 0;
-}
-
-.feature-box {
-    text-align: center;
-    padding: 5%;
-}
-
-.icon {
-    color: #54B435;
-}
-
-.icon:hover {
-    color: #82CD47;
 }
 
 /* Blog Carousel*/
 
 #blog {
-    padding: 2% 15% 5%;
-    text-align: center;
-    background-color: #82CD47;
+  padding: 2% 15% 5%;
+  text-align: center;
 }
 
 .blog-image {
-    margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 .carousel-caption {
-    color: black;
-}
-
-.container-fluid {
-    padding: 3% 15%;
+  color: black;
 }
 
 /* Certifications */
 
 #certs {
-    background-color: #54B435;
-    text-align: center;
-    padding-bottom: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3% 0;
 }
-
-
 
 .certs-logo {
-    margin: 20px;
-    width: 15%;
-}
-
-/* Elements */
-
-img {
-    width: 70%
-}
-
-button {
- margin: 5% 3%;
-}
-
-
-h1 {
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h2 {
-    font-size: 3rem;
-    font-weight: 750;
-    line-height: 1.5;
-}
-
-h3 {
-    font-weight: 600;
-}
-
-:root {
-  --bgcolor1: #82CD47;
-  --bgcolor2: #54B435;
+  width: 15%;
 }
