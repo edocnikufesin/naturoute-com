@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Stretch!</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/46f17c3332.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="../css/layout.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
-  </head>
 
-  <body>
-    <nav  id="navbar">
-      <div class="brand">Naturoute</div>
-      <div class="nav-links">
-        <a href="../index.html">Home</a>
-        <a href="./nutrition.html">Nutrition</a>
-        <a href="#" id="current-page">Yoga</a>
-        <a href="./contact.html">Contact</a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stretch!</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/46f17c3332.js" crossorigin="anonymous"></script>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/nav.css" />
+</head>
+
+<body>
+
+  <!--Large Screen Nav-->
+  <nav id="navbar-lg">
+    <div class="brand">Naturoute</div>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="./nutrition.html">Nutrition</a>
+      <a href="#" id="current-page">Yoga</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+  </nav>
+  <main>
+    <section id="Yoga">
+      <h3>Enjoy your body and feel good <em>now</em></h3>
+      <h2>Naturoute Somatic Yoga</h2>
+      <ul>
+        <li>Personalized flows to focus on problem areas and incrementally improve mobility
+          and strength without pain or strain.
+        </li>
+        <li>Relieve or dissolve persistent pain conditions.</li>
+        <li>Significantly improve flexibility and posture.</li>
+        <li>Reduce or eliminate muscle stiffness and cramping.</li>
+        <li>Boost health, vitality, and well being.</li>
+        <li>Develop a loving, compassionate and trusting relationship with your body.</li>
+        <li>Somatic movements are science and heart-based.</li>
+        <li>A whole body approach for self-healing that provides immediate and long lasting
+          results.</li>
+        <li>Self-care and healing for every body.</li>
+        <li>Pain relief.</li>
+        <li>Peace of mind.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!--Mobile Navbar-->
+  <nav id="navbar-mobile">
+    <div class="nav-links">
+      <div>
+        <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+        <p>Home</p>
       </div>
-    </nav>
-    <main>
-      <section id="Yoga">
-        <h2>Yoga</h2>
-      </section>
-    </main>
+      <div>
+        <a href="./nutrition.html"><i class="fa-solid fa-utensils"></i></a>
+        <p>Nutrition</p>
+      </div>
+      <div>
+        <a href="#" id="current-page"><i class="fa-solid fa-person-burst"></i></a>
+        <p>Yoga</p>
+      </div>
+      <div>
+        <a href="./contact.html"><i class="fa-solid fa-message"></i></a>
+        <p>Contact</p>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Footer -->
-    <footer id="footer">
-      <p>©2023 Royburn</p>
-    </footer>
-  </body>
+  <!-- Footer -->
+  <footer id="footer">
+    <p>©2023 Royburn</p>
+  </footer>
+
+</body>
+
 </html>

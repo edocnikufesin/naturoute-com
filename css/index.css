@@ -2,6 +2,8 @@
 
 #title {
   display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   color: white;
@@ -100,11 +102,6 @@
 .btn-next {
   top: 45%;
   right: 2%;
-}
-
-/* Contact Section */
-
-#contact {
 }
 
 /* Blog Carousel*/

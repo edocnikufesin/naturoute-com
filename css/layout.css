@@ -1,21 +1,29 @@
 /* Elements */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: stretch;
   font-family: "Montserrat";
 }
 
+
 main {
-  display: grid;
-  place-items: center;
 }
 
+footer {
+  display: none;
+  text-align: right;
+}
 section {
-  width: 100%;
-  margin: 0px;
-}
-
-img {
-  width: 70%;
 }
 
 button {
@@ -38,61 +46,15 @@ h3 {
   font-weight: 600;
 }
 
-/* Nav Bar */
 
-#navbar {
-  background-color: var(--bgcolor2);
-}
+@media (min-width: 768px) {
 
-nav {
-  position: sticky;
-  top: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  transition: top 500ms ease-in-out;
-  z-index: 1;
-}
-
-#current-page {
-  color: black;
-}
-
-nav.scroll-up {
-  top: 0;
-}
-
-nav.scroll-down {
-  top: -100%;
-}
-
-nav.scroll-up,
-nav:focus-within {
-  /* ensure nav is visible when in focus */
-  top: 0;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-}
-
-nav a {
-  padding: 5px;
-}
-
-.brand {
-  /* font-family: 'Ubuntu'; */
-  font-size: 2.5rem;
-  font-weight: bold;
+  footer {
+    display: flex;
+  }
 }
 
 /* Footer */
-
-footer {
-  text-align: right;
-}
 
 #footer {
   background-color: var(--bgcolor2);
@@ -100,7 +62,6 @@ footer {
 
 footer p {
   width: 100%;
-  margin: 0px;
   padding: 2% 5%;
 }
 
@@ -115,8 +76,4 @@ section:nth-child(odd) {
 }
 section:nth-child(even) {
   background-color: var(--bgcolor2);
-}
-
-* {
-  box-sizing: border-box;
 }
