@@ -1,58 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Reach out!</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/46f17c3332.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="../css/layout.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
-  </head>
 
-  <body>
-    <nav  id="navbar">
-      <div class="brand">Naturoute</div>
-      <div class="nav-links">
-        <a href="../index.html">Home</a>
-        <a href="./nutrition.html">Nutrition</a>
-        <a href="./yoga.html">Yoga</a>
-        <a href="#" id="current-page">Contact</a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reach out!</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/46f17c3332.js" crossorigin="anonymous"></script>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/contact.css" />
+</head>
+
+<body>
+  <!--Large Screen Nav-->
+  <nav id="navbar-lg">
+    <div class="brand">Naturoute</div>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="./nutrition.html">Nutrition</a>
+      <a href="./yoga.html">Yoga</a>
+      <a href="#" id="current-page">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact-banner">
+        <div class="journey-blurb">
+          <h2>Begin Your Journey</h2>
+          <p>
+            My mission at natuRoute is to empower you with strategies to
+            optimize the unique natural potential of your body and its
+            relationship to nutrition and lifestyle. My approach is grounded
+            in holistic principles for maintenance and improvement of health,
+            well-being, and vitality through considering all aspects of who
+            you are as an individual.
+          </p>
+        </div>
+        <img src="../public/karen-chair-5472x3648.jpg" class="contact-pic" alt="karen-on-chair" />
       </div>
-    </nav>
+      <a href="mailto:karenbutt@naturoute.com"><button>Email</button></a>
+      <a href="tel:+15193757716"><button>Phone</button></a>
+    </section>
+  </main>
 
-    <main>
-      <!-- Contact -->
-      <section id="contact">
-        <img src="../images/kbutt-rhn.jpg" class="" alt="karen-pic" />
-        <h2>Begin Your Journey</h2>
-        <p>
-          My mission at natuRoute is to empower you with strategies to optimize
-          the unique natural potential of your body and its relationship to
-          nutrition and lifestyle. My approach is grounded in holistic
-          principles for maintenance and improvement of health, well-being, and
-          vitality through considering all aspects of who you are as an
-          individual.
-        </p>
-        <a href="mailto:karenbutt@naturoute.com"><button>Email</button></a>
-        <a href="tel:+15193757716"><button>Phone</button></a>
-      </section>
-    </main>
+  <!--Mobile Navbar-->
+  <nav id="navbar-mobile">
+    <div class="nav-links">
+      <div>
+        <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+        <p>Home</p>
+      </div>
+      <div>
+        <a href="./nutrition.html"><i class="fa-solid fa-utensils"></i></a>
+        <p>Nutrition</p>
+      </div>
+      <div>
+        <a href="./yoga.html"><i class="fa-solid fa-person-burst"></i></a>
+        <p>Yoga</p>
+      </div>
+      <div>
+        <a href="#" id="current-page"><i class="fa-solid fa-message"></i></a>
+        <p>Contact</p>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Footer -->
-    <footer id="footer">
-      <p>©2023 Royburn</p>
-    </footer>
-  </body>
+  <!-- Footer -->
+  <footer id="footer">
+    <p>©2023 Royburn</p>
+  </footer>
+</body>
+
 </html>

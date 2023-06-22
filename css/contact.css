@@ -1,0 +1,14 @@
+.contact-banner {
+  display: flex;
+  justify-content: center;
+}
+.journey-blurb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact img {
+  height: 250px;
+}

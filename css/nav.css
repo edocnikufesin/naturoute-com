@@ -1,0 +1,69 @@
+nav {
+  background-color: var(--bgcolor2);
+}
+
+#navbar-lg {
+  display: none;
+}
+
+#navbar-mobile {
+  position: sticky;
+  /* display: flex;
+  justify-content: space-between; */
+  bottom: 0;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+@media (min-width: 768px) {
+  #navbar-mobile {
+    display: none;
+  }
+  #navbar-lg {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 1;
+    transition: top 500ms ease-in-out;
+  }
+
+  #current-page {
+    color: black;
+  }
+
+
+  nav a {
+    padding: 5px;
+  }
+
+  .brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  nav.scroll-up,
+  nav:focus-within {
+    /* ensure nav is visible when in focus */
+    top: 0;
+  }
+
+  nav.scroll-up {
+    top: 0;
+  }
+
+  nav.scroll-down {
+    top: -100%;
+  }
+}
