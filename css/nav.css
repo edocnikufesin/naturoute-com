@@ -2,6 +2,15 @@ nav {
   background-color: var(--bgcolor2);
 }
 
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+#current-page {
+  color: wheat;
+}
+
 #navbar-lg {
   display: none;
 }
@@ -13,16 +22,16 @@ nav {
   bottom: 0;
 }
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  .nav-links div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.nav-links div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media (min-width: 768px) {
   #navbar-mobile {
@@ -39,10 +48,14 @@ nav {
     transition: top 500ms ease-in-out;
   }
 
-  #current-page {
-    color: black;
+  nav a:hover {
+    background: radial-gradient(var(--bgcolor1),var(--bgcolor2));
+    text-shadow: wheat 0 0 3px;
+    color: wheat;
   }
-
+  #current-page {
+    text-shadow: wheat 0 0 3px;
+  }
 
   nav a {
     padding: 5px;

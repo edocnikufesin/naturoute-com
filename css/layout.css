@@ -16,41 +16,40 @@ body {
   font-family: "Montserrat";
 }
 
-
 main {
-  /* flex-grow: 100; */
 }
 
+section {
+  padding: 10rem 15rem;
+}
+
+ul {
+  padding: 2rem 5rem;
+}
 footer {
   display: none;
   text-align: right;
 }
-section {
-}
-
 button {
   margin: 5% 3%;
 }
 
-h1 {
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: 750;
-  line-height: 1.5;
-}
-
-h3 {
-  font-weight: 600;
-}
-
-
 @media (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+  }
 
+  h2 {
+    font-size: 3rem;
+    font-weight: 750;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-weight: 600;
+  }
   footer {
     display: flex;
   }
