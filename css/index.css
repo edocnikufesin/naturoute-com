@@ -7,18 +7,24 @@
   align-items: center;
   justify-content: space-around;
   color: white;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  #title {
+    flex-wrap: nowrap;
+  }
+  .title-img {
+    width: 35%;
+    transform: rotate(12deg);
+    padding: 3%;
+    margin: 5%;
+  }
 }
 
 .title-text {
   text-align: center;
   margin: 0 5%;
-}
-
-.title-img {
-  width: 35%;
-  transform: rotate(12deg);
-  padding: 3%;
-  margin-right: 5%;
 }
 
 /* Services Section */
@@ -27,7 +33,7 @@
 }
 
 .serv-list {
-  padding: 0 20% 5%;
+  padding: ;
 }
 
 /* Features Section */
