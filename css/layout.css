@@ -10,17 +10,24 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--bgcolor1);
+  background-color: var(--color-peachy);
   justify-content: space-between;
   /* align-items: stretch; */
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
 }
 
 main {
 }
 
 section {
-  padding: 10rem 15rem;
+  display: flex;
+  flex-direction: row
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  padding: 0;
+  /* padding: 10rem 15rem; */
 }
 
 ul {
@@ -35,13 +42,18 @@ button {
 }
 
 @media (min-width: 768px) {
+
+  section {
+    flex-wrap: nowrap;
+  }
   h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 900;
     line-height: 1.5;
   }
 
   h2 {
+    font-family: "Ubuntu";
     font-size: 3rem;
     font-weight: 750;
     line-height: 1.5;
@@ -69,12 +81,13 @@ footer p {
 /* Elements */
 
 :root {
-  --bgcolor1: #82cd47; /*light*/
-  --bgcolor2: #54b435; /*dark*/
+  --color-green: #8D8741; 
+  --color-skyblue: #659DBD;
+  --color-peachy: #daad86;
+  --color-brown: #bc986a;
+  --color-yellow: #fbeec1;
 }
-section:nth-child(odd) {
-  background-color: var(--bgcolor1);
+/* section:nth-child(odd) {
 }
 section:nth-child(even) {
-  background-color: var(--bgcolor2);
-}
+} */

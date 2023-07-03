@@ -1,10 +1,14 @@
 nav {
-  background-color: var(--bgcolor2);
+  background-color: var(--color-brown);
 }
 
 nav a {
   color: black;
   text-decoration: none;
+}
+
+.nav-center {
+text-align: center;
 }
 
 #current-page {

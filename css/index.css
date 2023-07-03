@@ -1,63 +1,77 @@
 /* Title Section */
 
 #title {
-  display: flex;
+  /* display: flex; */
   flex-direction: row-reverse;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  color: white;
-  padding: 0;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  justify-content: space-between;
+  /* color: white; */
+  /* padding: 0; */
 }
-  .title-img {
-    width: 75%;
-    padding: 3%;
-    margin: 5%;
-    
-  }
+.title-img {
+  width: 75%;
+  padding: 3%;
+  margin: 5%;
+}
+.title-text {
+  text-align: center;
+  flex-grow: 1;
+}
+#hero {
+  font-family: 'Dancing Script', cursive;
+  text-shadow: wheat 0 0 8px;
+  font-size: 5.5rem;
+}
+#services {
+  background-color: var(--color-brown);
+  padding: 7rem 0;
+  color: black;
+  align-items: flex-start;
+}
+.serv-list {
+  width: 25%;
+  text-align: center;
+}
 
 @media (min-width: 768px) {
   #title {
     flex-wrap: nowrap;
   }
+
   .title-img {
-    width: 35%;
-    transform: rotate(12deg);
-    padding: 3%;
-    margin: 5%;
+    /* width: 35%; */
+    width: unset;
+    margin: 0;
+    height: 80vh;
+    /* transform: rotate(12deg); */
+    padding: 0;
+    /* margin: 5%; */
   }
 }
 
 .title-text {
-  text-align: center;
+  /* font-family: 'Merienda', cursive; */
   margin: 0 5%;
-}
-
-/* Services Section */
-
-#services {
-}
-
-.serv-list {
-  padding: ;
 }
 
 /* Features Section */
 
 #features {
-  display: flex;
-  justify-content: space-around;
+  background-color: var(--color-yellow);
+  color: var(--color-green);
+  align-items: flex-start;
   padding: 0 10%;
 }
 
 .feature-box {
-  width: 20%;
+  width: 25%;
   text-align: center;
   padding: 5%;
 }
 
 .icon {
-  color: #54b435;
+  color: var( --color-green);
 }
 
 .icon:hover {
@@ -133,9 +147,7 @@
 /* Certifications */
 
 #certs {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  background-color: var(--color-yellow);
   padding: 3% 0;
 }
 

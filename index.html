@@ -1,93 +1,107 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Naturoute</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Merienda&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/46f17c3332.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script defer src="./scripts/script.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Naturoute</title>
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
-    rel="stylesheet" />
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/46f17c3332.js" crossorigin="anonymous"></script>
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="css/layout.css" />
-  <link rel="stylesheet" href="css/nav.css" />
-  <link rel="stylesheet" href="css/index.css" />
-  <script defer src="./scripts/script.js"></script>
-</head>
-
-<body id="body">
-
-  <!--Large Screen Nav-->
-  <nav id="navbar-lg">
-    <div class="brand">Naturoute</div>
-    <div class="nav-links">
-      <a href="#" id="current-page">Home</a>
-      <a href="./pages/nutrition.html">Nutrition</a>
-      <a href="./pages/yoga.html">Yoga</a>
-      <a href="./pages/contact.html">Contact</a>
-    </div>
-  </nav>
-
-  <main>
-    <!-- Title Block -->
-    <section id="title">
-      <div class="title-text">
-        <h1>Holistic nutrition with Karen Butt.</h1>
+  <body id="body">
+    <!--Large Screen Nav-->
+    <nav id="navbar-lg">
+      <div class="brand">Naturoute</div>
+      <div class="nav-center">
+        <p>Serving Owen Sound & Area</p>
+        <p>Appointments Available Evenings & Weekends</p>
       </div>
-      <img src="media/karen-sitting-3648x5472.jpg" class="title-img" alt="karen-headshot" />
-    </section>
+      <div class="nav-links">
+        <a href="#" id="current-page">Home</a>
+        <a href="./pages/nutrition.html">Nutrition</a>
+        <a href="./pages/yoga.html">Yoga</a>
+        <a href="./pages/contact.html">Contact</a>
+      </div>
+    </nav>
 
-    <!-- Services -->
-    <section id="services">
-      <div class="serv-list">
-        <h2>Holistic Nutrition & Wellness</h2>
-        <ul>
-          <li>Whole body assessment & systems analysis.</li>
-          <li>Personalized research guided strategies.</li>
-          <li>Quality natural suppliments.</li>
-        </ul>
-        <h2>Nutrigenomics Analysis</h2>
-        <ul>
-          <li>Focus nutrition based on your personal genetic pathway.</li>
-        </ul>
-        <h2>Gentle Somatic Yoga</h2>
-        <ul>
-          <li>
-            Reconnect body & mind to reduce pain and increase freedom of
-            movement.
-          </li>
-        </ul>
-      </div>
-    </section>
+    <main>
+      <!-- Title Block -->
+      <section id="title">
+        <div class="title-text">
+          <h1>
+          <div id="hero">holistic wellness</div>
+            with Karen Butt
+          </h1>
+        </div>
+        <img
+          src="media/karen-sitting-3648x5472.jpg"
+          class="title-img"
+          alt="karen-headshot"
+        />
+      </section>
 
-    <!-- Features -->
-    <section id="features">
-      <div class="feature-box">
-        <i class="icon fa-solid fa-heart fa-3x"></i>
-        <h3>Get healthy.</h3>
-        Feel better as your body heals.
-      </div>
-      <div class="feature-box">
-        <i class="icon fa-solid fa-weight-scale fa-3x"></i>
-        <h3>Lose weight.</h3>
-        <p>Have more energy and look better.</p>
-      </div>
-      <div class="feature-box">
-        <i class="icon fa-solid fa-user-shield fa-3x"></i>
-        <h3>Private.</h3>
-        <p>
-          All interactions and collected information is secure and never
-          shared.
-        </p>
-      </div>
-    </section>
+      <!-- Services -->
+      <section id="services">
+        <div class="serv-list">
+          <h2>Holistic Nutrition</h2>
+          <p>Personalized research guided strategies.</p>
+        </div>
+        <div class="serv-list">
+          <h2>Nutrigenomics Analysis</h2>
+          <p>Focus nutrition based on your personal genetic pathway.</p>
+        </div>
+        <div class="serv-list">
+          <h2>
+            Somatic<br />
+            Yoga
+          </h2>
+          <p>Reduce pain and increase freedom movement.</p>
+        </div>
+      </section>
 
-    <!-- Carousel
+      <!-- Features -->
+      <section id="features">
+        <div class="feature-box">
+          <i class="icon fa-solid fa-heart fa-3x"></i>
+          <h3>Get healthy.</h3>
+          Feel better as your body heals.
+        </div>
+        <div class="feature-box">
+          <i class="icon fa-solid fa-weight-scale fa-3x"></i>
+          <h3>Ideal weight</h3>
+          <p>Have more energy and look better.</p>
+        </div>
+        <div class="feature-box">
+          <i class="icon fa-solid fa-user-shield fa-3x"></i>
+          <h3>Private.</h3>
+          <p>Your info is secure and never shared.</p>
+        </div>
+      </section>
+
+      <!-- Carousel
     <section id="carousel">
       <div class="slide">
         <img src="https://source.unsplash.com/random?landscape,mountain" alt="" />
@@ -110,42 +124,52 @@
         << /button>
     </section> -->
 
-    <!-- Certifications -->
-    <section id="certs">
-      <img class="certs-logo" src="media/CSNN-Cert-Mark-1223x1033.png"" alt="CSNN-logo" />
-      <img class="certs-logo" src="media/NatuRoute-bestofbest-gold-2021-960x720.png" alt="bestofbest-logo" />
-      <img class="certs-logo" src="media/CSNNAA-Badge-300x300.png" alt="CSNNAA-logo" />
-    </section>
+      <!-- Certifications -->
+      <section id="certs">
+        <img class="certs-logo" src="media/CSNN-Cert-Mark-1223x1033.png""
+        alt="CSNN-logo" />
+        <!-- <img
+          class="certs-logo"
+          src="media/NatuRoute-bestofbest-gold-2021-960x720.png"
+          alt="bestofbest-logo"
+        /> -->
+        <img
+          class="certs-logo"
+          src="media/CSNNAA-Badge-300x300.png"
+          alt="CSNNAA-logo"
+        />
+      </section>
+    </main>
 
-    </div>
-  </main>
+    <!--Mobile Navbar-->
+    <nav id="navbar-mobile">
+      <div class="nav-links">
+        <div>
+          <a href="#" id="current-page"><i class="fa-solid fa-house"></i></a>
+          <p>Home</p>
+        </div>
+        <div>
+          <a href="./pages/nutrition.html"
+            ><i class="fa-solid fa-utensils"></i
+          ></a>
+          <p>Nutrition</p>
+        </div>
+        <div>
+          <a href="./pages/yoga.html"
+            ><i class="fa-solid fa-person-burst"></i
+          ></a>
+          <p>Yoga</p>
+        </div>
+        <div>
+          <a href="./pages/contact.html"><i class="fa-solid fa-message"></i></a>
+          <p>Contact</p>
+        </div>
+      </div>
+    </nav>
 
-  <!--Mobile Navbar-->
-  <nav id="navbar-mobile">
-    <div class="nav-links">
-      <div>
-        <a href="#" id="current-page"><i class="fa-solid fa-house"></i></a>
-        <p>Home</p>
-      </div>
-      <div>
-        <a href="./pages/nutrition.html"><i class="fa-solid fa-utensils"></i></a>
-        <p>Nutrition</p>
-      </div>
-      <div>
-        <a href="./pages/yoga.html"><i class="fa-solid fa-person-burst"></i></a>
-        <p>Yoga</p>
-      </div>
-      <div>
-        <a href="./pages/contact.html"><i class="fa-solid fa-message"></i></a>
-        <p>Contact</p>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Footer -->
-  <footer id="footer">
-    <p>©2023 Royburn</p>
-  </footer>
-</body>
-
+    <!-- Footer -->
+    <footer id="footer">
+      <p>©2023 Royburn</p>
+    </footer>
+  </body>
 </html>
