@@ -18,15 +18,13 @@
   text-align: center;
   flex-grow: 1;
 }
-
- #bottom {
-  margin-top: 10rem;
-}
-
 #hero {
   font-family: 'Dancing Script', cursive;
   text-shadow: wheat 0 0 8px;
   font-size: 5.5rem;
+}
+#bottom {
+  align-self: end;
 }
 
 #services {
@@ -57,6 +55,7 @@
 }
 
 .title-text {
+  /* font-family: 'Merienda', cursive; */
   margin: 0 5%;
 }
 
