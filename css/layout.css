@@ -7,13 +7,9 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   min-height: 100vh;
   background-color: var(--color-peachy);
-  justify-content: space-between;
-  /* align-items: stretch; */
-  /* font-family: "Montserrat"; */
 }
 
 main {
@@ -21,18 +17,17 @@ main {
 
 section {
   display: flex;
-  flex-direction: row
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   color: white;
-  padding: 0;
-  /* padding: 10rem 15rem; */
 }
 
 ul {
   padding: 2rem 5rem;
 }
+
 footer {
   display: none;
   text-align: right;
@@ -67,18 +62,12 @@ button {
   }
 }
 
-/* Footer */
-
-#footer {
-  background-color: var(--bgcolor2);
-}
-
 footer p {
   width: 100%;
   padding: 2% 5%;
 }
 
-/* Elements */
+/* Color Variables */
 
 :root {
   --color-green: #8D8741; 
@@ -87,7 +76,3 @@ footer p {
   --color-brown: #bc986a;
   --color-yellow: #fbeec1;
 }
-/* section:nth-child(odd) {
-}
-section:nth-child(even) {
-} */
